@@ -1,0 +1,16 @@
+# Arquivos do sistema/editor
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Arquivos gerados que às vezes vão parar dentro da config
+spell/*.spl
+.luarc.json
+.netrwhist
+tags
+
+# Segredos e overrides locais (caso crie no futuro)
+*.local.lua
+lua/config/local.lua
+.env
